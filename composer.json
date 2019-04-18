@@ -2,6 +2,9 @@
   "name": "kniemiecvirtua/sitemap-component",
   "description": "Sitemap Import Component",
   "version": "master",
+  "require": {
+    "php": "~7.0.13|~7.1.0"
+  },
   "autoload": {
     "psr-4": {
       "Virtua\\SitemapComponent\\": "/"
