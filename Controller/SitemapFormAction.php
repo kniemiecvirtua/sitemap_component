@@ -21,7 +21,7 @@ class SitemapFormAction
     {
         if (!$this->session->isLoggedIn()) {
             header("HTTP/1.0 403 Forbidden");
-            require __DIR__ . '/../view/403.phtml';
+            require __DIR__ . '/../../../../src/view/403.phtml';
             exit;
         }
 

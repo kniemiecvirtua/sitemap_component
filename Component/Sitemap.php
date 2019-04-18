@@ -34,7 +34,8 @@ class Sitemap
      */
     private function getFullPath(string $file): string
     {
-        return __DIR__ . '/../../' . self::SITEMAP_IMPORT_DIR . $file;
+        //TODO implement base directory
+        return __DIR__ . '/../../../../' . self::SITEMAP_IMPORT_DIR . $file;
     }
 
     /**
