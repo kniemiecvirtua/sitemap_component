@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace Virtua\SitemapComponent\Command;
 
 use Snowdog\DevTest\Model\UserManager;
-use Snowdog\DevTest\Component\Sitemap;
-use Snowdog\DevTest\Model\SitemapManager;
+use Virtua\SitemapComponent\Component\Sitemap;
+use Virtua\SitemapComponent\Model\SitemapManager;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class SitemapCommand

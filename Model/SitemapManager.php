@@ -3,6 +3,11 @@ declare(strict_types=1);
 
 namespace Virtua\SitemapComponent\Model;
 
+use Snowdog\DevTest\Model\UserManager;
+use Snowdog\DevTest\Model\User;
+use Snowdog\DevTest\Model\PageManager;
+use Snowdog\DevTest\Model\WebsiteManager;
+
 class SitemapManager
 {
     /**
