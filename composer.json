@@ -1,0 +1,10 @@
+{
+  "name": "kniemiecvirtua/sitemap-component",
+  "description": "Sitemap Import Component",
+  "version": "master",
+  "autoload": {
+    "psr-4": {
+      "Virtua\\SitemapComponent\\": "/"
+    }
+  }
+}
