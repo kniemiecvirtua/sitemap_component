@@ -3,7 +3,7 @@
   "description": "Sitemap Import Component",
   "version": "master",
   "require": {
-    "php": "~7.0.13|~7.1.0"
+    "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {
